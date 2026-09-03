@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ARC Labs</title>
+  <meta name="description" content="A lightweight deployment test powered by Coolify and Cloudflare.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+  </div>
+
+  <header>
+    <div class="logo">
+      <span class="logo-mark">A</span>
+      <span>ARC Labs</span>
+    </div>
+
+    <div class="status">
+      <span class="status-dot"></span>
+      System Online
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="badge">
+        <span>⚡</span>
+        Deployed successfully
+      </div>
+
+      <h1>
+        Build.
+        <span>Deploy.</span>
+        Repeat.
+      </h1>
+
+      <p class="subtitle">
+        A lightweight deployment test running through
+        <strong>Coolify</strong> and <strong>Cloudflare Tunnel</strong>.
+      </p>
+
+      <div class="buttons">
+        <button id="launchButton" class="primary">
+          Launch Test
+          <span>→</span>
+        </button>
+
+        <button id="detailsButton" class="secondary">
+          View Details
+        </button>
+      </div>
+
+    </section>
+
+    <section class="cards">
+
+      <div class="card">
+        <div class="icon">🚀</div>
+        <h3>Deployment</h3>
+        <p>Served directly through your Coolify infrastructure.</p>
+        <div class="card-status">READY</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">☁️</div>
+        <h3>Cloudflare</h3>
+        <p>Traffic is securely routed through your tunnel.</p>
+        <div class="card-status">CONNECTED</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>Infrastructure</h3>
+        <p>Pure HTML, CSS and JavaScript. No heavy framework.</p>
+        <div class="card-status">LIGHTWEIGHT</div>
+      </div>
+
+    </section>
+
+    <section id="details" class="details">
+
+      <div>
+        <span>HOSTNAME</span>
+        <strong id="hostname">Detecting...</strong>
+      </div>
+
+      <div>
+        <span>PROTOCOL</span>
+        <strong id="protocol">Detecting...</strong>
+      </div>
+
+      <div>
+        <span>UPTIME</span>
+        <strong id="uptime">0s</strong>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <span>ARC Labs</span>
+    <span>•</span>
+    <span>Coolify deployment test</span>
+  </footer>
+
+  <div id="toast" class="toast">
+    🚀 Deployment is working!
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
